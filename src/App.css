@@ -1,0 +1,30 @@
+.green {
+  color: #44bba4;
+  font-weight: bold;
+}
+
+.center {
+  left: 50%;
+}
+.right {
+  margin-right: 30px;
+}
+
+.btn-bg-tabla {
+  background-color: #44bba4;
+  color: white;
+  margin-left: 20px;
+}
+
+.btn-tabla {
+  color: #44bba4;
+}
+
+.logo {
+  margin-right: 5px;
+  width: 40px;
+}
+
+NavLink {
+  color: #44bba4;
+}

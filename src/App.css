@@ -1,3 +1,6 @@
+body {
+  background-color: #ffffff;
+}
 .green {
   color: #44bba4;
   font-weight: bold;
@@ -27,4 +30,195 @@
 
 NavLink {
   color: #44bba4;
+}
+
+.hero-txt {
+  width: 50%;
+  display: inline-block;
+  height: max-content;
+  padding: auto;
+  left: 0;
+  margin-left: 50px;
+  margin-top: 10%;
+}
+
+.hero-tabla {
+  font-family: Nexa;
+  color: #43ab8c;
+  size: 20px;
+  font-weight: 700;
+}
+.hero-h {
+  width: 80%;
+  font-family: Nexa;
+  font-weight: 900;
+  size: 54px !important;
+  line-height: 54.8px !important;
+  color: #0a0908;
+  font-style: bold !important;
+}
+
+.hero-p {
+  color: rgba(10, 9, 8, 0.45);
+  width: 80%;
+  size: 24px;
+  font-family: "Nexa,Times New Roman", Times, serif;
+}
+.svgHero {
+  width: 95%;
+}
+
+.date-picker {
+  background-color: #ffffff;
+  height: 90px;
+  margin-top: 70px;
+  left: 0;
+  margin-left: 50px;
+  width: 52%;
+  box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.08);
+  border-radius: 25px;
+}
+
+.inp-search {
+  width: 70%;
+  margin-left: 7px;
+  border: #0a0908;
+  outline: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+.fa-search,
+.fa-calendar {
+  margin-left: 0;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search-grp {
+  max-width: 22%;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.date-txt {
+  margin-left: 7px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.date-grp {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  max-width: 29%;
+  text-align: center;
+}
+
+.city-grp {
+  width: 30%;
+}
+
+.fa-city {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 5px;
+}
+.city-txt {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.city-select {
+  border: 1px;
+  width: 75px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-book {
+  align-self: flex-end;
+  background-color: #57b894;
+  border-color: #57b894;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-grp {
+  max-width: 18%;
+}
+
+.cards-container {
+  margin-top: 160px;
+  height: 80%;
+  justify-content: space-between;
+  display: flex;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.restaurant-card {
+  height: 380px;
+  min-width: 25%;
+  display: inline-block;
+  flex-basis: 33%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.08);
+  border-radius: 25px;
+}
+/* .container > div {
+  flex: 3;
+} */
+
+.card-image {
+  display: inline-block;
+  width: 90%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.card-item {
+  margin-left: 7%;
+}
+
+.card-title {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #0a0908;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.card-description {
+  color: rgba(10, 9, 8, 0.3);
+}
+
+.card-review {
+  padding-top: 5px;
+}
+.card-category {
+  margin-top: 5px;
+}
+.card-status {
+  float: right;
+  margin-right: 7%;
+  width: 75px;
+}
+
+.startIcon,
+.card-review img {
+  width: 18px;
+  vertical-align: text-bottom;
+}
+
+.reviewNum {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #f6b93b;
+}
+
+.category-txt {
+  color: #57b894;
+  margin-left: 5px;
 }

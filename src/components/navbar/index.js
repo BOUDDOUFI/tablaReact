@@ -1,4 +1,6 @@
 import React from "react";
+
+// import { faCoffee } from "@fortawesome/free-brands-svg-icons";
 import { NavLink, Bars, NavMenu, Nav } from "./Navbar-elements";
 
 function Navbar() {

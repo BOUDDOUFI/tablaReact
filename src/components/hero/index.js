@@ -9,7 +9,7 @@ import svgHero from "./HeroVector.svg";
 function Hero() {
   return (
     <>
-      <div className="fh">
+      <div className="hero-container ">
         <div className="hero-txt">
           <div className="hero-tabla">
             <img width="15px" src={icon} alt="icon" /> at tabla.ma
@@ -37,13 +37,16 @@ function Hero() {
           </div>
           <div className="col-sm  my-auto date-grp">
             <div className="date-time">
-              <i class="far fa-calendar"></i>
+              <i className="far fa-calendar"></i>
               <span className="date-txt">Date & Time</span>
             </div>
           </div>
           <div className="col-sm my-auto city-grp">
-            <i class="fas fa-city"></i>
-            <select class="custom-select city-select" id="inputGroupSelect02">
+            <i className="fas fa-city"></i>
+            <select
+              className="custom-select city-select"
+              id="inputGroupSelect02"
+            >
               <option selected disabled>
                 City
               </option>

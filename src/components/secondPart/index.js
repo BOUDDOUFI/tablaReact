@@ -26,6 +26,7 @@ import {
   TitleOfBi,
   Foooter,
   FourCompon,
+  CopyRight,
 } from "./SecondPart-elements";
 
 function SecondPart() {
@@ -72,10 +73,10 @@ function SecondPart() {
         </MiniContainer1>
       </GreenSpot>
       <div>
-        <Container2>
+        <Container2 className="">
           <TitleOfBi> Are you a restaurant owner? </TitleOfBi>
-          <MiniContainer2>
-            <ContainerLeft className="yih">
+          <MiniContainer2 className="rest-owner p-5 ">
+            <ContainerLeft>
               <img
                 src="./RegisterImage.svg"
                 alt=""
@@ -107,7 +108,10 @@ function SecondPart() {
             <Headinng2> Subscribe Get all notification from us </Headinng2>
           </div>
           <div className="GrTo">
-            <InputSubsc placeholder=" Enter your email" />
+            <div className="subBac">
+              <InputSubsc placeholder=" Enter your email" />
+              <button className="subscribe-btn">Subscribe</button>
+            </div>
           </div>
         </Container3>
       </GreenSpot1>
@@ -118,16 +122,66 @@ function SecondPart() {
         <FourCompon>
           <img src="/logo.png" className="logo" alt="tabla.ma" width="54px" />
           <h3 class="green"> tabla.ma</h3>
-          <p>
-            It is a long established fact that a reader will
-            {/* <br> be distracted by the readable content of a</br> page when */}
-            looking at its layout.
+          <p className="footerParag">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
           </p>
+          <h5>Email: support@tabla.ma</h5>
+          <h5> Phone: +212 (558) 547 4758 </h5>
         </FourCompon>
-        <FourCompon> sdv</FourCompon>
-        <FourCompon> SDGV </FourCompon>
-        <FourCompon>adehgeh</FourCompon>
+        <FourCompon>
+          <h4 className="quickLinks"> Quick Links</h4>
+          <div className="qlListe">
+            <h5>
+              <a href="url">Home</a>
+            </h5>
+            <h5>
+              <a href="url">Restaurants</a>
+            </h5>
+            <h5>
+              <a href="url">Foods</a>
+            </h5>
+            <h5>
+              <a href="url">Register your restaurant</a>
+            </h5>
+            <h5>
+              <a href="url">Create an account</a>
+            </h5>
+          </div>
+        </FourCompon>
+        <FourCompon>
+          <h4 className="quickLinks"> Navigations </h4>
+          <div className="qlListe">
+            <h5>
+              <a href="url">Home</a>
+            </h5>
+            <h5>
+              <a href="url">About us</a>
+            </h5>
+            <h5>
+              <a href="url">Terms & Conditions</a>
+            </h5>
+            <h5>
+              <a href="url">Privacy Policy</a>
+            </h5>
+          </div>
+        </FourCompon>
+        <FourCompon>
+          <h4 className="quickLinks"> Support </h4>
+          <div className="qlListe">
+            <h5>
+              <a href="url">Contact us</a>
+            </h5>
+            <h5>
+              <a href="url">FAQ</a>
+            </h5>
+          </div>
+        </FourCompon>
       </Foooter>
+      <CopyRight>
+        All rights reserved by <span className="footerTabla">TABLA.MA</span> |
+        2022©
+      </CopyRight>
     </div>
   );
 }

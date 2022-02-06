@@ -2,23 +2,22 @@ import styled from "styled-components";
 
 export const Container2 = styled.div`
   width: 100%;
-  height: 100vh;
 `;
 
 export const TitleOfBi = styled.h1`
   color: #44bba4;
   text-align: center;
   font-size: 35px;
-  margin-top: 60px;
+  margin-top: 3%;
 `;
 
 export const MiniContainer2 = styled.div`
   width: 80%;
-
+  height: 100%;
   margin: auto;
   background: #ffffff;
   box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.08);
-  margin-top: 40px;
+  margin-top: 3%;
   display: flex;
 `;
 
@@ -78,10 +77,10 @@ export const Headinng2 = styled.h2`
 `;
 
 export const Container3 = styled.div`
-  width: 1170px;
+  width: 80%;
   height: 100%;
   margin: auto;
-  padding-top: 20px;
+
   letter-spacing: 1px;
   display: flex;
 `;
@@ -101,14 +100,13 @@ export const GreenSpot2 = styled.div`
 `;
 
 export const InputSubsc = styled.input`
-  width: 90%;
+  width: 70%;
   height: 80px;
   border: 0;
   display: inline-block;
   background: #fdffff;
   border-radius: 10px;
-  margin-left: 70px;
-  margin-top: 37px;
+  /* margin-left: 70px; */
   padding-left: 14px;
 `;
 
@@ -116,14 +114,18 @@ export const GreenSpot = styled.div`
   width: 100%;
   height: 180px;
   background-color: #57b894;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
 `;
 
 export const MiniContainer1 = styled.div`
-  width: 1000px;
+  width: 80%;
   height: 180px;
   background-color: #57b894;
-  margin: auto;
+  justify-content: space-between;
   display: flex;
+  margin: auto;
 `;
 
 export const ForCompon = styled.div`
@@ -160,5 +162,13 @@ export const Foooter = styled.div`
 `;
 
 export const FourCompon = styled.div`
-  height: 400px;
+  height: 360px;
+  margin-top: 70px;
+`;
+
+export const CopyRight = styled.div`
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  text-align: center;
 `;

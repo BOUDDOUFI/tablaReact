@@ -80,7 +80,6 @@ export const Container3 = styled.div`
   width: 80%;
   height: 100%;
   margin: auto;
-
   letter-spacing: 1px;
   display: flex;
 `;

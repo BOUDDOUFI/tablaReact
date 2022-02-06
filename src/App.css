@@ -275,6 +275,10 @@ NavLink {
   vertical-align: top;
 }
 
+.Popular-restaurants h2 {
+  display: inline-block;
+}
+
 .popular-restaurant-viewMore {
   font-family: "Nexa";
   float: right;
@@ -285,6 +289,35 @@ NavLink {
   border: none;
 }
 
+#category {
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18% 18%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.category-item {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.08);
+  border-radius: 25px;
+  height: 12rem;
+}
+.category-contents {
+  text-align: center;
+  margin: auto;
+  margin-top: 20%;
+}
+.category-img {
+  width: 30%;
+}
+.category-name {
+  font-family: Nexa;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  margin-top: 8%;
+}
 /* second part */
 
 .parag2 {
